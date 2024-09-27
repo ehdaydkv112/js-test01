@@ -14,3 +14,16 @@ const people = [5, 7, 7, 4];
 "team1의 인원수는 5명입니다."
 
 */
+
+function trass(team, people) {
+    for (let i = 0; i < team.length; i++) {
+        for (let i = 0; i < people.length; i++)
+            console.log(`"${team[i]}의 인원수는 ${people[i]}명입니다."`);
+        break;
+    }
+}
+
+const team = ["team1", "team2", "team3", "team4"];
+const people = [5, 7, 7, 4];
+
+trass(team, people);
