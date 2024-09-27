@@ -93,6 +93,6 @@ console.log(checkOddOrEven(8));
 
 //수환님 문제
 //문제 1번
-function boo(arr) {
-  for()
-}
+// function boo(arr) {
+//   for()
+// }
