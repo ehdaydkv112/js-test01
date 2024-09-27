@@ -222,3 +222,41 @@ const people = [5, 7, 7, 4];
 for(let i=0; i< team.length; i++) {
   console.log(`{${team[i]}의 인원수는 ${people[i]}입니다.`)
 }
+
+
+
+// 강수정님 문제 풀이
+/* 
+    함수 이름 type_check를 만든다.
+
+    매개변수로 a를 받는다.
+    for 문을 사용하여 1부터 n까지의 숫자를 출력한다.
+    출력한 숫자를 모두 더한다.
+*/
+
+function type_check(n) {
+  let sum = 0;
+  for(let i = 0; i<n; i++)
+  {
+    console.log(i+1);
+    sum += (i+1);
+  }  
+}
+
+
+// 김혁진님 문제 풀이
+
+// 1. 홀수와 짝수 판별 함수
+// 숫자를 입력받아, 해당 숫자가 홀수인지 짝수인지 출력하는 함수를 만드세요.
+
+
+function checkOddOrEven(num) {
+
+  if(num%2 === 0)
+    console.log("Even");  
+  else
+    console.log("Odd");
+}
+
+checkOddOrEven(5); // "Odd"
+checkOddOrEven(8); // "Even"
