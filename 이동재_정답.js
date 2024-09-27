@@ -72,3 +72,27 @@ const fullWords = [
   '별결 다 줄인다',
   '만나서 반가워 잘 부탁해'
 ];
+
+//혁진님 문제
+
+//문제 1번
+// 1. 홀수와 짝수 판별 함수
+// 숫자를 입력받아, 해당 숫자가 홀수인지 
+//짝수인지 출력하는 함수를 만드세요.
+
+function checkOddOrEven(num) {
+  if(num % 2 === 0) {
+    console.log("짝수입니다.")
+  } else {
+    console.log("홀수입니다.")
+  }
+};
+
+console.log(checkOddOrEven(5));
+console.log(checkOddOrEven(8));
+
+//수환님 문제
+//문제 1번
+function boo(arr) {
+  for()
+}
