@@ -55,6 +55,7 @@ console.log(find_smallest_number(9, 27, 9))
 // 강태진_문제3
 
 const find_longest_word = (str) => {
+  if (typeof str !== "string") return "문자열이 아닙니다"
   let words = str.split(" ");
   let longestWord = "";
   for (let word of words) {
@@ -63,4 +64,5 @@ const find_longest_word = (str) => {
   return longestWord
 }
 
+console.log(find_longest_word(1004));
 console.log(find_longest_word("add good life"));
