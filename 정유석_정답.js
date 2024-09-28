@@ -51,4 +51,16 @@ const find_smallest_number = (x, y, z) => Math.min(x, y, z);
 console.log(find_largest_number(9, 27, 27))
 console.log(find_smallest_number(9, 27, 9))
 
-// 
+
+// 강태진_문제3
+
+const find_longest_word = (str) => {
+  let words = str.split(" ");
+  let longestWord = "";
+  for (let word of words) {
+    if (word.length > longestWord.length) longestWord = word
+  }
+  return longestWord
+}
+
+console.log(find_longest_word("add good life"));
